@@ -18,48 +18,49 @@
         <div id="content">
             <div class="info">
     Опубликовано December 16, 2017
+    
 </div>
 
 <h1 id="rsync-и-резервное-копирование-системы">Rsync и резервное копирование системы</h1>
 <p>Мне удобно, когда операционная система содержит следующие разделы:</p>
 <table style="width:92%;">
 <colgroup>
-<col width="33%" />
-<col width="27%" />
-<col width="31%" />
+<col style="width: 33%" />
+<col style="width: 27%" />
+<col style="width: 31%" />
 </colgroup>
 <thead>
 <tr class="header">
-<th align="center">Раздел</th>
-<th align="left">Точка монтирования</th>
-<th align="left">LVM раздел</th>
+<th style="text-align: center;">Раздел</th>
+<th style="text-align: left;">Точка монтирования</th>
+<th style="text-align: left;">LVM раздел</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td align="center"><p>корневой</p></td>
-<td align="left"><p>/</p></td>
-<td align="left"><p>rootfs</p></td>
+<td style="text-align: center;">корневой</td>
+<td style="text-align: left;">/</td>
+<td style="text-align: left;">rootfs</td>
 </tr>
 <tr class="even">
-<td align="center"><p>загрузочный</p></td>
-<td align="left"><p>/boot</p></td>
-<td align="left"><p>-</p></td>
+<td style="text-align: center;">загрузочный</td>
+<td style="text-align: left;">/boot</td>
+<td style="text-align: left;">-</td>
 </tr>
 <tr class="odd">
-<td align="center"><p>домашний каталог</p></td>
-<td align="left"><p>/home</p></td>
-<td align="left"><p>home</p></td>
+<td style="text-align: center;">домашний каталог</td>
+<td style="text-align: left;">/home</td>
+<td style="text-align: left;">home</td>
 </tr>
 <tr class="even">
-<td align="center"><p>данные и всякий хлам (фильмы, музыка и т.п.)</p></td>
-<td align="left"><p>/media/data</p></td>
-<td align="left"><p>mediadata</p></td>
+<td style="text-align: center;">данные и всякий хлам (фильмы, музыка и т.п.)</td>
+<td style="text-align: left;">/media/data</td>
+<td style="text-align: left;">mediadata</td>
 </tr>
 <tr class="odd">
-<td align="center"><p>диски виртуальных машин</p></td>
-<td align="left"><p>/media/vms</p></td>
-<td align="left"><p>vms и vms_slow</p></td>
+<td style="text-align: center;">диски виртуальных машин</td>
+<td style="text-align: left;">/media/vms</td>
+<td style="text-align: left;">vms и vms_slow</td>
 </tr>
 </tbody>
 </table>
@@ -71,7 +72,7 @@
 </ul>
 <p>Остальные разделы не содержат полезных данных, либо их легко восстановить.</p>
 <p>Резервное копирование системы состоит из 3 этапов:</p>
-<ol style="list-style-type: decimal">
+<ol type="1">
 <li><a href="#partitions">Получение списка разделов</a></li>
 <li><a href="#remove">Удаление устаревших и ненужных файлов перед резервным копированием</a></li>
 <li><a href="#copy">Резервное копирование необходимых разделов</a></li>
@@ -104,7 +105,7 @@
                 github
             </a>
             <div id="copyright">
-                Copyright (C) 2017 Korepanov Vyacheslav
+                Copyright (C) 2017-2019 Korepanov Vyacheslav
             </div>
         </div>
     </body>
