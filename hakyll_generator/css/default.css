@@ -1,15 +1,19 @@
 html {
-    background: #FBDDA2;
+    background: #515151;
 }
 
 body {
-    color: black;
+    color: #ADD8E6;
     font-size: 16px;
     margin: 2% 5% 2% 5%;
 }
 
+a {
+    color: #ADFFFF;
+}
+
 div#navigation {
-    background: #F9A909;
+    background: #99CC99;
     text-align: center;
     padding-bottom: 16px;
     border-bottom: 1px solid lightgray;
@@ -30,7 +34,7 @@ div#navigation h1 {
 }
 
 div#footer {
-    background: #FBDDA2;
+    background: #515151;
     border-top: solid 2px black;
     font-size: 12px;
     padding: 12px 0px 12px 0px;
