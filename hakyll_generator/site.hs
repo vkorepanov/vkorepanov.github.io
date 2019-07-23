@@ -80,7 +80,7 @@ xelatex item = do
     unsafeCompiler $ do
         writeFile mdPath $ itemBody item
         exitCode <- Process.system $ unwords ["pandoc", mdPath
-            , "--latex-engine=xelatex" , "-V", "mainfont=\"Liberation Serif\""
+            , "-V", "mainfont=\"Liberation Serif\""
             , "-V", "geometry:left=3cm,top=2cm,bottom=2cm,right=2cm", "-o", pdfPath]
         case exitCode of
                 System.Exit.ExitSuccess -> return ()
