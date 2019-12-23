@@ -32,11 +32,15 @@ title: "Резюме"
   (реализация юнит и интеграционных тестов), KDChart (построение диаграммы
   Гантта), qscintilla (интеграция редактора для скриптового языка в Qt
   приложение), OpenCV (базовые знания обработки изображений и распознавания
-  образов). OS X библиотеки: Cocoa, Foundation, PromiseKit, Sparkle.
+  образов), DCMTK (чтение и рендеринг DICOM файлов), VTK (3D rendering with
+  raycasting, multiplanar rendering DICOM файлов), pistache (http сервер). OS X
+  библиотеки: Cocoa, Foundation, PromiseKit, Sparkle.
 - *Работа с программами*: cmake, cppcheck, docker, doxygen, git, make, meson,
   pandoc, qmake, valgrind, vim и др. Опыт работы в операционных системах: OS X:
   Sierra, High Sierra, Mojave; GNU/Linux: Gentoo, Exherbo, Fedora, OpenSUSE,
   Ubuntu, Debian, Astra Linux (Orel, Smolensk), МСВС.
+- *Администрирование*: настройках простых сетей, туннелей, мостов.
+  Опыт разворачивания http, php и прокси на nginx, разворачивание teamcity.
 
 ## Опыт работы
 
@@ -60,6 +64,11 @@ title: "Резюме"
 Опыт работы с package installer, plist файлами, системой сборки xcode как в
 графическом, так и в консольном режимах.
 
+Август 2019 - настоящее время: ООО "Сириус С".  
+Должность: специалист департамента программных средств.  
+Выполняемая работа: проектирование и разработка средства просмотра DICOM
+файлов, получаемых из разных источников.
+
 \pagebreak
 
 ## Достижения на предыдущих местах работы
@@ -79,3 +88,17 @@ title: "Резюме"
   компонент.
 - Разработал плагин для redmine (ruby on rails), добавляющий информацию о
   лицензии пользователя при обращении в поддержку продукта.
+
+## Сертификаты
+
+Многопоточное программирование на C/C++ (2017):  
+[https://stepik.org/certificate/0b3794eabd5e2ec494cbb2e422d4f7088bda7963.pdf](https://stepik.org/certificate/0b3794eabd5e2ec494cbb2e422d4f7088bda7963.pdf)
+
+Функциональное программирование на языке Haskell (2017):  
+[https://stepik.org/certificate/18cc65e14e590dcd14edb175921ea68c32cd66e1.pdf](https://stepik.org/certificate/18cc65e14e590dcd14edb175921ea68c32cd66e1.pdf)
+
+Введение в Linux (2017):  
+[https://stepik.org/certificate/261de416bcfc228283bfc1d30d59acb1a185dd2d.pdf](https://stepik.org/certificate/261de416bcfc228283bfc1d30d59acb1a185dd2d.pdf)
+
+Многопоточность в iOS (Swift) (2018):  
+[https://stepik.org/certificate/c4f257b51dd4e08f8439243e58a9ac7404fdfb7c.pdf](https://stepik.org/certificate/c4f257b51dd4e08f8439243e58a9ac7404fdfb7c.pdf)
