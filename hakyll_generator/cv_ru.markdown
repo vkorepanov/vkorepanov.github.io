@@ -102,3 +102,6 @@ title: "Резюме"
 
 Многопоточность в iOS (Swift) (2018):  
 [https://stepik.org/certificate/c4f257b51dd4e08f8439243e58a9ac7404fdfb7c.pdf](https://stepik.org/certificate/c4f257b51dd4e08f8439243e58a9ac7404fdfb7c.pdf)
+
+JavaScript для начинающих:  
+[https://stepik.org/certificate/012b1b138a787ac1ece2b5a1b7b580ac78c39e69.pdf](https://stepik.org/certificate/012b1b138a787ac1ece2b5a1b7b580ac78c39e69.pdf)
